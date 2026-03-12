@@ -9,7 +9,7 @@ const path = require('path');
 // =========================================
 // ⚙️ SETTINGAN DISINI (GANTI NOMOR LU)
 // =========================================
-const PHONE_NUMBER = "628988219165"; // GANTI NOMOR BOT LU DISINI
+const PHONE_NUMBER = "6281226416919"; // GANTI NOMOR BOT LU DISINI
 const AUTO_VIEW_STATUS = true;       // true = nyala, false = mati
 const MODE_KONEKSI = "pairing";      // "pairing" atau "qr"
 // =========================================
@@ -76,7 +76,7 @@ async function connectToWhatsApp() {
 
                 try {
                     // DELAY MANUSIA (15-30 DETIK)
-                    const watchTime = Math.floor(Math.random() * 15000) + 15000;
+                    const watchTime = Math.floor(Math.random() * 9000) + 1000;
                     console.log(`⏱️ Watching for ${watchTime/1000}s...`);
                     await new Promise(r => setTimeout(r, watchTime));
 
