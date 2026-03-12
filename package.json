@@ -1,0 +1,19 @@
+{
+      "name": "XenoviaAI",
+      "version": "1.0.5",
+      "main": "main.js",
+      "scripts": {
+            "start": "node main.js"
+      },
+      "dependencies": {
+            "@hapi/boom": "^10.0.1",
+            "chalk": "^5.6.2",
+            "dotenv": "^17.3.1",
+            "jagproject": "^26.3.13",
+            "jimp": "^0.16.1",
+            "lru-cache": "^11.2.6",
+            "moment-timezone": "^0.6.0",
+            "pino": "^10.3.1",
+            "qrcode-terminal": "^0.12.0"
+      }
+}
